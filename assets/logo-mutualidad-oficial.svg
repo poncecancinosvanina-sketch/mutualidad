@@ -1,0 +1,66 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle - Dark blue -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#0B1C3D" stroke-width="4"/>
+  
+  <!-- Inner circle - Light blue -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#5BA3C0" stroke-width="2"/>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="85" fill="#FFFFFF"/>
+  
+  <!-- Left hand/arm - Teal -->
+  <path d="M 45 85 Q 35 90 35 105 Q 35 120 45 125 L 65 115 Q 55 105 55 95 Q 55 85 65 75 Z" fill="#1B7A8C" opacity="0.9"/>
+  
+  <!-- Right hand/arm - Teal -->
+  <path d="M 155 85 Q 165 90 165 105 Q 165 120 155 125 L 135 115 Q 145 105 145 95 Q 145 85 135 75 Z" fill="#1B7A8C" opacity="0.85"/>
+  
+  <!-- Heart shape - outline -->
+  <path d="M 75 70 Q 75 60 85 60 Q 95 60 100 68 Q 105 60 115 60 Q 125 60 125 70 Q 125 85 100 105 Q 75 85 75 70 Z" 
+        fill="none" stroke="#0B1C3D" stroke-width="2.5"/>
+  
+  <!-- Left side of heart - Teal -->
+  <path d="M 75 70 Q 75 62 83 62 Q 90 62 96 68 Q 90 75 90 85 Q 75 95 75 70 Z" fill="#1B7A8C" opacity="0.8"/>
+  
+  <!-- Right side of heart - Coral/Red -->
+  <path d="M 125 70 Q 125 62 117 62 Q 110 62 104 68 Q 110 75 110 85 Q 125 95 125 70 Z" fill="#D97760" opacity="0.85"/>
+  
+  <!-- Medical cross inside heart -->
+  <g opacity="0.95">
+    <rect x="96" y="75" width="8" height="20" fill="#D97760" rx="1"/>
+    <rect x="86" y="85" width="28" height="8" fill="#D97760" rx="1"/>
+  </g>
+  
+  <!-- Family figures inside heart -->
+  <g fill="#1B7A8C" opacity="0.8">
+    <!-- Adult head -->
+    <circle cx="104" cy="82" r="4"/>
+    <!-- Adult body -->
+    <ellipse cx="104" cy="90" rx="2.5" ry="4"/>
+    
+    <!-- Child 1 head -->
+    <circle cx="112" cy="86" r="2.5"/>
+    <!-- Child 1 body -->
+    <ellipse cx="112" cy="92" rx="1.8" ry="3"/>
+    
+    <!-- Child 2 head -->
+    <circle cx="96" cy="86" r="2.5"/>
+    <!-- Child 2 body -->
+    <ellipse cx="96" cy="92" rx="1.8" ry="3"/>
+  </g>
+  
+  <!-- Main text: MUTUALIDAD DE LA SALUD -->
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+        text-anchor="middle" fill="#0B1C3D" letter-spacing="0.5">
+    MUTUALIDAD
+  </text>
+  <text x="100" y="148" font-family="Arial, sans-serif" font-size="11" font-weight="bold" 
+        text-anchor="middle" fill="#0B1C3D" letter-spacing="0.5">
+    DE LA SALUD
+  </text>
+  
+  <!-- Subtitle: PROTECCIÓN Y BIENESTAR FAMILIAR -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="6.5" font-weight="500" 
+        text-anchor="middle" fill="#5BA3C0" letter-spacing="0.3">
+    PROTECCIÓN Y BIENESTAR FAMILIAR
+  </text>
+</svg>
