@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Mutualidad de la Salud Santiago del Estero | Obra Social & Protección Familiar</title>
+  <meta name="description" content="Portal oficial de la Mutualidad de la Salud Santiago del Estero. Cobertura de Obra Social y beneficios mutuales exclusivos: sepelio, salud, turismo y peluquería.">
+  <meta name="keywords" content="mutual de salud santiago del estero, obra social santiago del estero, sepelio santiago del estero, traslados sanitarios, internacion domiciliaria, turismo mutual, peluqueria mutual">
+  
+  <!-- Custom Vanilla CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- FontAwesome Icons for UI -->
+  <script src="https://kit.fontawesome.com/a62c647b1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Top Emergency bar -->
+  <div style="background-color: var(--accent); color: var(--white); padding: 0.5rem 0; font-size: 0.85rem; font-weight: 700; text-align: center; position: relative; z-index: 1001;">
+    <i class="fa-solid fa-phone-volume" style="margin-right: 0.5rem; animation: pulse 1.5s infinite;"></i> 
+    Emergencias, Guardia y Traslados 24hs: 
+    <a href="tel:3855250505" style="text-decoration: underline; margin-left: 0.25rem;">385-5250505</a>
+  </div>
+
+  <!-- Header Navbar -->
+  <header class="navbar-header" id="navbar">
+    <div class="container navbar-container">
+      <a href="#inicio" class="brand-logo-container">
+        <img src="assets/logo-mutualidad-oficial.png" alt="Mutualidad de la Salud - Protección y Bienestar Familiar" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title">Mutualidad de la Salud</span>
+          <span class="brand-subtitle">Santiago del Estero</span>
+          <span class="brand-alliance">Protección y Bienestar Familiar</span>
+        </div>
+      </a>
+
+      <!-- Navbar navigation links -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#propuesta" class="nav-link">La Propuesta</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios Médicos</a></li>
+          <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="#cotizador" class="nav-link">Simulador</a></li>
+          <li><a href="#compras-licitaciones" class="nav-link nav-link--licitaciones"><i class="fa-solid fa-file-contract"></i> Licitaciones</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          <!-- Mobile CTA -->
+          <li style="margin-top: 1.5rem; display: none;" class="mobile-cta">
+            <a href="tel:3855250505" class="btn btn-accent" style="width: 100%;">
+              <i class="fa-solid fa-phone"></i> Emergencias 24hs
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main action buttons -->
+      <div class="nav-actions">
+        <a href="#cotizador" class="btn btn-primary btn-sm">Asociarse</a>
+        <a href="tel:3855250505" class="btn btn-accent btn-sm">
+          <i class="fa-solid fa-phone"></i> Emergencias 24hs
+        </a>
+      </div>
+
+      <!-- Hamburger toggle menu -->
+      <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Abrir Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="hero-alliance-tag">
+          <span></span> Cobertura de Obra Social &amp; Beneficios Mutuales
+        </div>
+        <h1 class="hero-title">
+          Cuidamos de tu familia con la fuerza de tu <span>Obra Social y Mutual</span>.
+        </h1>
+        <p class="hero-subtitle">
+          Brindamos servicios de Obra Social integrados con los mejores beneficios mutuales de Santiago del Estero. Una propuesta unificada y adaptada para trabajadores del sector privado, monotributistas y particulares.
+        </p>
+        <div class="hero-buttons">
+          <a href="#beneficios" class="btn btn-secondary">Ver Beneficios</a>
+          <a href="#cotizador" class="btn btn-outline">Simular Cuota</a>
+        </div>
+      </div>
+      
+      <!-- Premium mockup visual container with inline SVG and badges -->
+      <div class="hero-visual">
+        <div class="hero-card-stack">
+          <!-- Urgencias Badge float -->
+          <div class="hero-float-badge badge-urgencia">
+            <div class="badge-icon">
+              <i class="fa-solid fa-truck-medical"></i>
+            </div>
+            <div class="badge-text">
+              <h4>Guardia Médica 24hs</h4>
+              <p>Mutualidad de la Salud</p>
+            </div>
+          </div>
+
+          <!-- Main Interactive visual card -->
+          <div class="hero-main-card">
+            <img src="assets/logo-mutualidad-oficial.png" alt="Mutualidad de la Salud - Protección y Bienestar Familiar" class="hero-logo-big">
+            <h3>Protección Integral</h3>
+            <p>Tranquilidad para tu familia con el respaldo de la Mutualidad de la Salud.</p>
+          </div>
+
+          <!-- Cobertura Nacional Badge float -->
+          <div class="hero-float-badge badge-alliance" style="bottom: -20px; right: -10px; max-width: 240px;">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px;">
+              <circle cx="50" cy="50" r="45" fill="none" stroke="var(--secondary)" stroke-width="4" />
+              <path d="M30,50 L45,65 L70,35" fill="none" stroke="var(--primary)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="badge-text">
+              <h4>Cobertura Nacional</h4>
+              <p>Garantía de Obra Social Registrada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats ribbon -->
+  <section class="stats-ribbon">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3>100%</h3>
+        <p>Santiago del Estero</p>
+      </div>
+      <div class="stat-item">
+        <h3>Salud</h3>
+        <p>Cobertura Nacional</p>
+      </div>
+      <div class="stat-item">
+        <h3>Emergencias</h3>
+        <p>Guardia Activa 24hs</p>
+      </div>
+      <div class="stat-item">
+        <h3>Sepelio</h3>
+        <p>Servicio Opcional · Consultá</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proposed Concept Section (Unification of Mutual and Obra Social) -->
+  <section class="feature-section" id="propuesta">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Integración de Servicios</span>
+        <h2 class="section-title">El Respaldo de tu Obra Social, el Espíritu de tu Mutual</h2>
+        <p class="section-description">
+          Unimos lo mejor de ambos mundos en una sola marca. A través de la **Mutualidad de la Salud**, accedes a una cobertura de salud completa y a beneficios sociales que cuidan tu bienestar en el día a día.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem;">
+        <!-- Card 1: Obra Social -->
+        <div class="comparison-card mutual" style="background: var(--white); border-color: rgba(11, 28, 61, 0.1);">
+          <div class="service-icon-wrapper" style="background-color: var(--primary-ultra-light); color: var(--primary);">
+            <i class="fa-solid fa-file-signature"></i>
+          </div>
+          <h3 style="color: var(--primary); font-size: 1.5rem; margin-bottom: 1rem;">Servicios de Mutualidad</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+            Brindamos cobertura integral a los afiliados, combinando servicios de salud y beneficios sociales bajo un mismo paraguas.
+          </p>
+          <ul class="comparison-list">
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Derivación directa y legal de aportes</li>
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Atención médica y consultas en clínicas locales</li>
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Planes adaptados a monotributo y relación de dependencia</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Beneficios Mutualistas -->
+        <div class="comparison-card mutual" style="background: var(--white); border-color: rgba(19, 147, 132, 0.15); box-shadow: var(--glass-shadow);">
+          <div class="service-icon-wrapper" style="background-color: var(--secondary-bg); color: var(--secondary);">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <h3 style="color: var(--secondary); font-size: 1.5rem; margin-bottom: 1rem;">Beneficios Solidarios Mutuales</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+            Como mutualidad, complementamos la salud médica con una red de asistencia social y de bienestar familiar orientada a aliviar la economía del hogar y brindar contención en los momentos clave.
+          </p>
+          <ul class="comparison-list">
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Servicio de Sepelio familiar y subsidios económicos</li>
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Descuentos preferenciales en turismo nacional</li>
+            <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 0.5rem;"></i> Servicios gratuitos de estética y peluquería</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section: Emergencias, Internación, Centro de salud -->
+  <section class="services-section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Servicios Médicos Propios</span>
+        <h2 class="section-title">Infraestructura Médica de la Mutualidad</h2>
+        <p class="section-description">
+          Todos los servicios médicos y de asistencia de urgencias son ordenados y operados de forma directa bajo el nombre de **Mutualidad de la Salud**, garantizando una atención ágil y humana.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Area Protegida / Emergencias -->
+        <div class="service-card emergency-card">
+          <div class="service-icon-wrapper">
+            <i class="fa-solid fa-truck-medical"></i>
+          </div>
+          <h3>Emergencias &amp; Guardia 24hs</h3>
+          <p>
+            Unidades de traslado sanitario totalmente equipadas de la Mutualidad para responder a emergencias, urgencias y derivaciones programadas las 24 horas del día.
+          </p>
+          <ul>
+            <li>Guardia telefónica activa permanente</li>
+            <li>Traslados de alta complejidad</li>
+            <li>Respuesta y asistencia domiciliaria</li>
+          </ul>
+        </div>
+
+        <!-- Internacion Domiciliaria -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <i class="fa-solid fa-house-chimney-medical"></i>
+          </div>
+          <h3>Internación Domiciliaria</h3>
+          <p>
+            "Sanar en casa". Coordinamos equipos interdisciplinarios (médicos, enfermeros, kinesiólogos) y provisión de equipamiento en la comodidad y tranquilidad de tu hogar.
+          </p>
+          <ul>
+            <li>Seguimiento clínico especializado diario</li>
+            <li>Suministro de aparatología médica</li>
+            <li>Contención y calidez humana</li>
+          </ul>
+        </div>
+
+        <!-- Centro de Salud -->
+        <div class="service-card">
+          <div class="service-icon-wrapper">
+            <i class="fa-solid fa-hospital"></i>
+          </div>
+          <h3>Centro de Salud Propio</h3>
+          <p>
+            Consultorios externos destinados a la atención médica de nuestros afiliados en clínica médica, pediatría, cardiología y especialidades con turnos ágiles.
+          </p>
+          <ul>
+            <li>Atención ambulatoria de primer nivel</li>
+            <li>Descuento en farmacias de la Mutual</li>
+            <li>Gestión de recetas sin demoras</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mutualist Benefits Section (Sepelio, Coberturas, Turismo, Peluquería) -->
+  <section class="services-section" id="beneficios" style="background-color: var(--white); border-top: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Protección y Recreación</span>
+        <h2 class="section-title">Beneficios Exclusivos para Asociados</h2>
+        <p class="section-description">
+          La vida mutualista va más allá de la salud. Te ofrecemos servicios complementarios pensados para el bienestar diario, la recreación y la tranquilidad de toda tu familia.
+        </p>
+      </div>
+
+      <div class="services-grid" style="grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
+        <!-- 1. Sepelio -->
+        <div class="service-card" style="padding: 1.75rem;">
+          <div class="service-icon-wrapper" style="width: 50px; height: 50px; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">Servicio de Sepelio</h3>
+          <p style="font-size: 0.85rem; line-height: 1.5; margin-bottom: 0;">
+            Cobertura fúnebre completa para todo tu grupo familiar (titular, cónyuge e hijos) y un subsidio de **$500.000** en efectivo para afrontar gastos urgentes.
+          </p>
+        </div>
+
+        <!-- 2. Cobertura de Salud -->
+        <div class="service-card" style="padding: 1.75rem;">
+          <div class="service-icon-wrapper" style="width: 50px; height: 50px; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-stethoscope"></i>
+          </div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">Cobertura de Salud</h3>
+          <p style="font-size: 0.85rem; line-height: 1.5; margin-bottom: 0;">
+            Acceso garantizado a consultas médicas generales, descuentos del 40% al 50% en farmacias adheridas en Santiago del Estero y cobertura de traslados sanitarios.
+          </p>
+        </div>
+
+        <!-- 3. Turismo -->
+        <div class="service-card" style="padding: 1.75rem;">
+          <div class="service-icon-wrapper" style="width: 50px; height: 50px; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-umbrella-beach"></i>
+          </div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">Turismo Familiar</h3>
+          <p style="font-size: 0.85rem; line-height: 1.5; margin-bottom: 0;">
+            Tarifas corporativas y descuentos especiales de la Mutualidad en reservas de hoteles y centros recreativos adheridos en las principales plazas turísticas nacionales.
+          </p>
+        </div>
+
+        <!-- 4. Peluqueria -->
+        <div class="service-card" style="padding: 1.75rem;">
+          <div class="service-icon-wrapper" style="width: 50px; height: 50px; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-scissors"></i>
+          </div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">Peluquería y Estética</h3>
+          <p style="font-size: 0.85rem; line-height: 1.5; margin-bottom: 0;">
+            Servicio gratuito de peluquería básica mensual y descuentos especiales en tratamientos de estética y estilismo en la sede central de la Mutual.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plan Sepelio Highlight Section (Folleto Imagen 5) -->
+  <section class="sepelio-highlight" id="planes">
+    <div class="container sepelio-grid">
+      <div class="sepelio-text">
+        <span class="section-badge" style="background-color: rgba(255,255,255,0.15); color: var(--white);">Tranquilidad en los momentos difíciles</span>
+        <h2>Servicio de Sepelio de la Mutualidad de la Salud</h2>
+        <p>
+          Te ofrecemos cobertura integral de sepelio para todo tu grupo familiar sin importar el número de integrantes. Con un valor mensual unificado y el respaldo económico que tu familia necesita cuando el momento llega.
+        </p>
+        
+        <div class="sepelio-features">
+          <div class="sepelio-feature-item">
+            <div class="sepelio-feature-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div>
+              <h4>Todo tu grupo familiar cubierto</h4>
+              <p>Matrimonio y todos los hijos solteros menores de hasta 18 años incluidos.</p>
+            </div>
+          </div>
+          <div class="sepelio-feature-item">
+            <div class="sepelio-feature-icon">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div>
+              <h4>Sin límite de hijos</h4>
+              <p>¡Cubre desde 1 hasta 6 hijos (o más) bajo la misma tarifa mensual unificada!</p>
+            </div>
+          </div>
+          <div class="sepelio-feature-item">
+            <div class="sepelio-feature-icon">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+            <div>
+              <h4>Subsidio de dinero inmediato</h4>
+              <p>Recibí $500.000 en efectivo de forma inmediata para solventar los gastos urgentes derivados del fallecimiento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plan Sepelio - Servicio Opcional para consultar -->
+      <div class="sepelio-card-container">
+        <div class="sepelio-badge-card">
+          <h3>Plan Sepelio Familiar</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0.5rem;">Servicio Opcional · Consultá tu cuota</p>
+          
+          <div class="sepelio-subsidy" style="margin-top: 1.5rem;">
+            <h4>$500.000</h4>
+            <p>Subsidio Directo por Fallecimiento</p>
+          </div>
+          
+          <ul class="sepelio-card-details">
+            <li>Servicio de sepelio con la mayor calidez</li>
+            <li>Trámites legales y traslado fúnebre</li>
+            <li>Acompañamiento profesional y respeto</li>
+            <li>Sin sorpresas ni copagos adicionales</li>
+          </ul>
+
+          <p style="font-size: 0.82rem; color: var(--text-muted); text-align: center; margin-bottom: 1rem; font-style: italic;">
+            Este es un servicio opcional. Consultanos por tu cuota personalizada.
+          </p>
+          
+          <button onclick="solicitarPlanSepelio()" class="btn btn-secondary" style="width: 100%;">
+            <i class="fa-brands fa-whatsapp"></i> Consultar precio por WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Calculator Section -->
+  <section class="calculator-section" id="cotizador">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Cotizador Digital</span>
+        <h2 class="section-title">Simulá tu Plan de Salud</h2>
+        <p class="section-description">
+          Elegí el tipo de cobertura que necesitás para tu familia, la cantidad de integrantes y descubrí el valor solidario mensual sugerido de forma instantánea.
+        </p>
+      </div>
+
+      <div class="calculator-wrapper">
+        <div class="calculator-grid">
+          <!-- Controls -->
+          <div class="calculator-controls">
+            <!-- 1. Tipo de plan (solo Salud + Obra Social) -->
+            <div class="calc-control-group">
+              <label class="calc-label">1. Plan seleccionado</label>
+              <div class="plan-select-grid">
+                <div class="plan-option active" id="opt-integral" style="cursor: default;">
+                  <h4>Plan Salud + Obra Social</h4>
+                  <p>Guardia 24hs, traslados, internación y consulta médica.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Cantidad de Hijos -->
+            <div class="calc-control-group" id="hijos-group">
+              <label class="calc-label">2. Cantidad de Hijos (Menores de 18 años)</label>
+              <div class="range-slider">
+                <input type="range" class="range-input" id="cant-hijos" min="0" max="8" value="2" oninput="updateCalculos()">
+                <div class="range-value" id="val-hijos">2</div>
+              </div>
+              <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;" id="hijos-desc">
+                * El plan de salud integral añade cobertura médica activa para cada miembro de la familia.
+              </p>
+            </div>
+            
+            <!-- 3. Adicionales de Salud (Mutualidad de la Salud) -->
+            <div class="calc-control-group" id="adicionales-group" style="display: none;">
+              <label class="calc-label">3. Servicios Adicionales de Salud Incluidos</label>
+              <div style="display: grid; grid-template-columns: 1fr; gap: 0.75rem;">
+                <div style="display: flex; align-items: center; gap: 0.75rem; background-color: var(--white); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border);">
+                  <i class="fa-solid fa-truck-medical" style="color: var(--secondary); font-size: 1.2rem;"></i>
+                  <span style="font-size: 0.9rem; font-weight: 500;">Emergencias y Guardia Activa 24hs de la Mutual</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem; background-color: var(--white); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border);">
+                  <i class="fa-solid fa-hospital-user" style="color: var(--secondary); font-size: 1.2rem;"></i>
+                  <span style="font-size: 0.9rem; font-weight: 500;">Atención Médica y Consultorios Externos Propios</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Result Panel -->
+          <div class="calc-result-panel">
+            <span class="result-plan-title">Tu Plan Seleccionado</span>
+            <h3 class="result-plan-name" id="res-plan-name">Plan Salud + Obra Social</h3>
+            
+            <div class="result-price-box" style="background: linear-gradient(135deg, var(--primary-ultra-light), var(--secondary-bg)); border: 2px dashed var(--secondary); padding: 1.5rem; border-radius: var(--radius);">
+              <div style="font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem;">
+                <i class="fa-solid fa-comments-dollar" style="color: var(--secondary); margin-right: 0.5rem;"></i>
+                Cuota a confirmar
+              </div>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
+                Los valores están siendo definidos. Consultanos y te informamos la cuota personalizada para tu grupo familiar.
+              </p>
+            </div>
+
+            <ul class="result-features" id="res-features">
+              <li>Cobertura médica y de Obra Social</li>
+              <li>Emergencias y Guardia activa de la Mutual 24hs</li>
+              <li>Internación Domiciliaria de la Mutualidad</li>
+              <li>Servicio de Sepelio completo y subsidio de $500.000</li>
+            </ul>
+
+            <button onclick="solicitarPlanCalculado()" class="btn btn-secondary" style="width: 100%; margin-top: auto;">
+              <i class="fa-brands fa-whatsapp"></i> Consultar mi Cuota por WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews / Testimonials Section -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nuestros Asociados</span>
+        <h2 class="section-title">Reseñas que nos Cuidan</h2>
+        <p class="section-description">
+          Conocé la experiencia de las familias santiagueñas que ya cuentan con el respaldo médico de la Mutualidad de la Salud.
+        </p>
+      </div>
+
+      <div class="reviews-carousel">
+        <div class="reviews-track" id="reviews-track">
+          <!-- Slide 1 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                "Excelente atención de todo el equipo en la internación domiciliaria de mi abuela. Nos sentimos sumamente acompañados en el momento de mayor incertidumbre. Todo bajo la coordinación médica de la Mutualidad."
+              </p>
+              <div class="review-author">
+                <h4>Familia Gómez</h4>
+                <p>Santiago del Estero Capital</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                "La cobertura médica y el servicio de sepelio familiar unificado nos dieron una tranquilidad enorme. Es un gran alivio para el bolsillo familiar y la atención de la guardia de la Mutualidad es excelente."
+              </p>
+              <div class="review-author">
+                <h4>María S. de Alderetes</h4>
+                <p>La Banda, Santiago del Estero</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                "Derivar mis aportes de monotributista a la Mutualidad a través del convenio con ASPE fue facilísimo. Tengo cobertura de salud completa, descuentos en farmacia y además el beneficio de peluquería gratis."
+              </p>
+              <div class="review-author">
+                <h4>Carlos R.</h4>
+                <p>Frías, Santiago del Estero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Navigation dots -->
+        <div class="carousel-dots" id="carousel-dots">
+          <span class="dot active" onclick="gotoSlide(0)"></span>
+          <span class="dot" onclick="gotoSlide(1)"></span>
+          <span class="dot" onclick="gotoSlide(2)"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer Section -->
+  <footer class="footer-contact-section" id="contacto">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand column -->
+        <div class="footer-brand" style="grid-column: span 1.5;">
+          <a href="#inicio" style="display: flex; align-items: center; gap: 0.5rem;">
+            <img src="assets/logo-mutualidad-oficial.png" alt="Mutualidad de la Salud" class="footer-brand-logo">
+            <div class="brand-text">
+              <span class="brand-title" style="color: var(--white); font-size: 1.1rem;">Mutualidad de la Salud</span>
+              <span class="brand-subtitle" style="color: var(--secondary-light); font-size: 0.65rem;">Santiago del Estero</span>
+            </div>
+          </a>
+          <p style="margin-top: 1rem;">
+            Una mutualidad nacida por y para las familias de Santiago del Estero. Cuidamos tu bienestar familiar con la fuerza de nuestra Mutualidad y los beneficios mutualistas integrados.
+          </p>
+          <div style="margin-top: 1rem; color: var(--secondary-light); font-weight: 700; font-size: 0.85rem;">
+            <i class="fa-solid fa-handshake"></i> CONVENIO DE COBERTURA DE SALUD DIRECTO
+          </div>
+        </div>
+
+        <!-- Links column -->
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#propuesta">La Propuesta</a></li>
+            <li><a href="#servicios">Servicios Médicos</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#cotizador">Simulador de Cuota</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact info column -->
+        <div class="footer-contact">
+          <h4>Contacto & Emergencias</h4>
+          <ul class="footer-contact-list" id="compras-licitaciones">
+            <li>
+              <i class="fa-solid fa-phone-flip"></i>
+              <div>
+                <strong>Guardia y Ambulancia 24hs:</strong>
+                <a href="tel:3855250505" style="color: var(--accent-light); font-weight: bold; font-size: 1.1rem;">385-5250505</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <strong>Asesoría Comercial / Ventas:</strong>
+                <a href="https://wa.me/5493843402048?text=Hola,%20quisiera%20asesorarme%20sobre%20los%20planes%20de%20la%20Mutualidad." target="_blank" style="color: var(--white); font-weight: 600;">384-3402048</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <strong>Administración y Afiliados:</strong>
+                <a href="https://wa.me/5493843421738?text=Hola,%20me%20comunico%20para%20realizar%20una%20consulta%20administrativa." target="_blank" style="color: var(--white); font-weight: 600;">384-3421738</a>
+              </div>
+            </li>
+            <li class="footer-suppliers-block">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              <div>
+                <span class="footer-suppliers-eyebrow">Proveedores &amp; Mayoristas</span>
+                <strong class="footer-suppliers-title">Compras y Licitaciones</strong>
+                <a href="https://wa.me/5491164136325?text=Hola%20Vanina%2C%20nos%20comunicamos%20para%20enviar%20lista%20de%20precios%20e%20insumos." target="_blank" rel="noopener noreferrer" class="footer-suppliers-link">
+                  <i class="fa-brands fa-whatsapp"></i> +54 9 11 6413 6325
+                </a>
+                <a href="mailto:vgpc@mutualidaddelasalud-sde.com.ar" class="footer-suppliers-link">
+                  <i class="fa-solid fa-envelope"></i> vgpc@mutualidaddelasalud-sde.com.ar
+                </a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <strong>Filial Santiago del Estero:</strong>
+                Santiago del Estero Capital, Argentina.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer copyright -->
+      <div class="footer-bottom" style="display: flex; flex-direction: column; gap: 0.75rem; align-items: center;">
+        <p>&copy; 2026 Mutualidad de la Salud Santiago del Estero. Todos los derechos reservados. Brindamos servicios de Obra Social al sector privado a través del convenio directo con ASPE. Entidad regulada bajo la Ley Orgánica de Mutualidades 20.321 y fiscalizada por INAES.</p>
+        <p style="opacity: 0.8; font-size: 0.85rem; font-weight: 500;">
+          Desarrollado por <strong style="color: var(--secondary-light);">VaninaGissella</strong>
+          <span id="admin-login-trigger" onclick="openAdminLogin()" style="cursor: pointer; text-decoration: underline; transition: var(--transition-fast); margin-left: 5px; color: var(--white);">| <i class="fa-solid fa-user-lock" style="margin-right: 4px;"></i> Acceso Admin</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Intelligent Floating WhatsApp Widget -->
+  <div class="whatsapp-widget">
+    <button class="whatsapp-trigger-btn" id="wa-trigger" aria-label="Contacto de WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </button>
+    
+    <div class="whatsapp-widget-panel" id="wa-panel">
+      <div class="whatsapp-panel-header">
+        <div class="whatsapp-header-icon">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="whatsapp-header-text">
+          <h3>Mutualidad de la Salud</h3>
+          <p>En línea • Respuesta Inmediata</p>
+        </div>
+      </div>
+      <div class="whatsapp-panel-body">
+        <p>¿Con qué departamento de la Mutual querés comunicarte?</p>
+        
+        <!-- Contact item 1: Emergencias -->
+        <div class="whatsapp-contact-item" onclick="openContact('emergencias')">
+          <div class="whatsapp-contact-info">
+            <h4>Guardia & Traslados <span class="whatsapp-badge urgente">Urgente</span></h4>
+            <p>Servicio médico de la Mutualidad 24hs</p>
+          </div>
+          <div class="whatsapp-contact-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <!-- Contact item 2: Ventas -->
+        <div class="whatsapp-contact-item" onclick="openContact('ventas')">
+          <div class="whatsapp-contact-info">
+            <h4>Asesoría y Afiliaciones <span class="whatsapp-badge">Planes</span></h4>
+            <p>Contratar planes e información</p>
+          </div>
+          <div class="whatsapp-contact-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <!-- Contact item 3: Administracion -->
+        <div class="whatsapp-contact-item" onclick="openContact('administracion')">
+          <div class="whatsapp-contact-info">
+            <h4>Administración <span class="whatsapp-badge" style="background-color: var(--primary-light);">Consultas</span></h4>
+            <p>Trámites y atención al afiliado</p>
+          </div>
+          <div class="whatsapp-contact-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Control Bar -->
+  <div id="admin-control-bar" class="admin-control-bar">
+    <div class="admin-bar-container">
+      <div class="admin-bar-info">
+        <span class="admin-bar-badge"><i class="fa-solid fa-user-gear"></i> Modo Admin</span>
+        <p>Editá textos directamente · Clic en 🖼 para imágenes · Clic en 🔗 para hipervínculos</p>
+      </div>
+      <div class="admin-bar-actions">
+        <button onclick="toggleImageEditMode()" id="btn-img-edit" class="btn btn-sm" style="font-size:0.8rem; padding: 0.5rem 1rem; background: #6c3fc5; color:white; border:none; border-radius: var(--radius-sm); cursor:pointer;"><i class="fa-solid fa-image"></i> Editar Imágenes</button>
+        <button onclick="toggleLinkEditMode()" id="btn-link-edit" class="btn btn-sm" style="font-size:0.8rem; padding: 0.5rem 1rem; background: #c55f3f; color:white; border:none; border-radius: var(--radius-sm); cursor:pointer;"><i class="fa-solid fa-link"></i> Editar Vínculos</button>
+        <button onclick="saveAdminChanges()" class="btn btn-secondary btn-sm" style="font-size:0.8rem; padding: 0.5rem 1rem;"><i class="fa-solid fa-floppy-disk"></i> Guardar Vista</button>
+        <button onclick="exportUpdatedHtml()" class="btn btn-accent btn-sm" style="font-size:0.8rem; padding: 0.5rem 1rem; background-color: var(--secondary);"><i class="fa-solid fa-file-arrow-down"></i> Descargar index.html</button>
+        <button onclick="exitAdminMode()" class="btn btn-outline btn-sm" style="font-size:0.8rem; padding: 0.5rem 1rem; border-color: var(--white); color: var(--white);"><i class="fa-solid fa-door-open"></i> Salir</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Editar Imagen -->
+  <div id="admin-img-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:99999; align-items:center; justify-content:center;">
+    <div style="background:white; border-radius:12px; padding:2rem; width:90%; max-width:480px; box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+        <h3 style="margin:0; color:var(--primary); font-size:1.1rem;"><i class="fa-solid fa-image" style="color:#6c3fc5; margin-right:0.5rem;"></i>Cambiar Imagen</h3>
+        <button onclick="closeImgModal()" style="background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--text-muted);">&times;</button>
+      </div>
+      <div id="admin-img-preview" style="text-align:center; margin-bottom:1rem;">
+        <img id="admin-img-current" src="" alt="Vista previa" style="max-width:100%; max-height:180px; border-radius:8px; border:1px solid var(--border);">
+      </div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:0.75rem;">Opción 1: Subí una imagen desde tu computadora</p>
+      <input type="file" id="admin-img-file" accept="image/*" onchange="previewUploadedImg(this)" style="display:block; width:100%; margin-bottom:1rem; font-size:0.85rem;">
+      <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:0.5rem;">Opción 2: Pegá una URL de imagen</p>
+      <input type="text" id="admin-img-url" placeholder="https://..." style="width:100%; padding:0.65rem; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:0.85rem; margin-bottom:1.25rem; box-sizing:border-box;" oninput="previewUrlImg(this.value)">
+      <div style="display:flex; gap:0.75rem;">
+        <button onclick="applyImgChange()" class="btn btn-secondary" style="flex:1;">Aplicar Cambio</button>
+        <button onclick="closeImgModal()" class="btn btn-outline" style="flex:1;">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Editar Hipervínculo -->
+  <div id="admin-link-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:99999; align-items:center; justify-content:center;">
+    <div style="background:white; border-radius:12px; padding:2rem; width:90%; max-width:480px; box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+        <h3 style="margin:0; color:var(--primary); font-size:1.1rem;"><i class="fa-solid fa-link" style="color:#c55f3f; margin-right:0.5rem;"></i>Editar Hipervínculo</h3>
+        <button onclick="closeLinkModal()" style="background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--text-muted);">&times;</button>
+      </div>
+      <div style="margin-bottom:1rem;">
+        <label style="display:block; font-size:0.82rem; font-weight:600; margin-bottom:0.4rem; color:var(--text-muted);">Texto del enlace</label>
+        <input type="text" id="admin-link-text" placeholder="Texto visible del enlace" style="width:100%; padding:0.65rem; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:0.85rem; box-sizing:border-box;">
+      </div>
+      <div style="margin-bottom:1.5rem;">
+        <label style="display:block; font-size:0.82rem; font-weight:600; margin-bottom:0.4rem; color:var(--text-muted);">URL de destino (href)</label>
+        <input type="text" id="admin-link-href" placeholder="https://... o tel:... o #seccion" style="width:100%; padding:0.65rem; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:0.85rem; box-sizing:border-box;">
+        <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.4rem;">Ejemplos: <code>https://sitio.com</code> · <code>tel:3855250505</code> · <code>#contacto</code></p>
+      </div>
+      <div style="margin-bottom:1.25rem;">
+        <label style="display:flex; align-items:center; gap:0.5rem; font-size:0.85rem; cursor:pointer;">
+          <input type="checkbox" id="admin-link-blank"> Abrir en nueva pestaña
+        </label>
+      </div>
+      <div style="display:flex; gap:0.75rem;">
+        <button onclick="applyLinkChange()" class="btn btn-secondary" style="flex:1;">Aplicar Cambio</button>
+        <button onclick="closeLinkModal()" class="btn btn-outline" style="flex:1;">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Login Modal -->
+  <div id="admin-login-modal" class="admin-modal">
+    <div class="admin-modal-content">
+      <div class="admin-modal-header">
+        <h3>Acceso de Administrador</h3>
+        <button onclick="closeAdminLogin()" class="admin-modal-close">&times;</button>
+      </div>
+      <div class="admin-modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; text-align: left;">Usa la contraseña para activar el modo de edición visual directa.</p>
+        <div style="margin-bottom: 1.5rem; text-align: left;">
+          <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.5rem;">Contraseña:</label>
+          <input type="password" id="admin-password" placeholder="Contraseña de edición" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); outline: none;">
+          <p id="admin-login-error" style="color: var(--accent); font-size: 0.75rem; margin-top: 0.5rem; display: none;">Contraseña incorrecta</p>
+        </div>
+        <button onclick="submitAdminLogin()" class="btn btn-primary" style="width: 100%;">Activar Editor</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
